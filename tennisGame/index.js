@@ -28,5 +28,3 @@ function stopGame() {
     alertGame.textContent = "Game Stopped!";
     alertGame.classList.remove("blink");
 }
-
-//test
