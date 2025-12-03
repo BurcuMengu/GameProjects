@@ -29,3 +29,4 @@ function stopGame() {
     alertGame.classList.remove("blink");
 }
 
+//test
