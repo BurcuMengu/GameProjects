@@ -59,7 +59,7 @@ body {
 
 .scoreBoard {
     display: flex;
-    gap: 21em;
+    gap: 32em;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
