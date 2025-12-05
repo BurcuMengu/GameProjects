@@ -6,6 +6,19 @@ let scoreTwo = 0;
 
 const alertGame = document.getElementById("alert");
 const gameScore = document.getElementsByClassName("scoreBoard");
+const leftBox = document.getElementById("leftBox");
+const rightBox = document.getElementById("rightBox");
+
+
+function scorePointOne() {
+    scoreOne++;
+    document.getElementById("playerOne").textContent = scoreOne;
+}
+
+function scorePointTwo() {
+    scoreTwo++;
+    document.getElementById("playerTwo").textContent = scoreTwo;
+}
 
 function startGame() {
     if(gameRunning) return;

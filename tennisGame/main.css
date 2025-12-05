@@ -6,6 +6,30 @@ body {
     margin: 0;
 }
 
+#leftBox {
+    position: absolute;
+    width: 0.5cm;
+    height: 2cm;
+    background-color: #F8FFB5;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 5px;
+}
+
+#rightBox {
+    position: absolute;
+    width: 0.5cm;
+    height: 2cm;
+    background-color: #F8FFB5;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 5px;
+}
+
 .container {
     width: 800px;
     height:400px;
@@ -59,7 +83,7 @@ body {
 
 .scoreBoard {
     display: flex;
-    gap: 32em;
+    gap: 31em;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
